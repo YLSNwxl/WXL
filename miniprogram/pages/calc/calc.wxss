@@ -1,0 +1,84 @@
+/* pages/cal/cal.wxss */
+page{
+ background:#00CCFF;
+}
+.screen{
+ position: fixed;
+ color:black;
+ font-size: 50rpx;
+ text-align:center;
+ width: 100%;
+height: 25%;
+ border: 5rpx #000000 solid;
+ word-wrap: break-word;
+}
+.content{
+ position: fixed;
+ width: 100%;
+ bottom: 0;
+}
+.buttonGroup{
+ display: flex;
+ flex-direction: row;
+}
+.buttonitem{
+ text-align: center;
+ line-height: 120rpx;
+ width: 25%;
+ border-radius: 0;
+ border: 3rpx #000000 solid;
+}
+.buttonitem1{
+  border: 3rpx #000000 solid;
+ width: 33%;
+ text-align: center;
+ line-height: 120rpx;
+ border-radius: 0;
+}
+icon{
+ position: absolute;
+ top: 80rpx;
+ left: 60rpx;
+}
+.color1{
+ background: #00CCFF;
+}
+.color2{
+ background: #00CCFF;
+}
+.color3{
+ background: #00CCFF;
+}
+.shadow{
+ background: #88e676;
+}
+.shadow0{
+ background: rgb(149, 118, 243);
+}
+.shadow1{
+ background: #FFCC66;
+}
+.shadow2{
+ background: #99FF00;
+}
+.shadow3{
+ background: #FF9999;
+}
+.shadow4{
+ background: #00CC66;
+}
+.shadow5{
+ background: #00CCFF;
+}
+.shadow6{
+ background: rgb(248, 80, 80);
+}
+.shadow7{
+ background: #FFCCFF;
+}
+.shadow8{
+ background: #CCCCCC;
+}
+.shadow9{
+ background: #CCFFFF;
+}

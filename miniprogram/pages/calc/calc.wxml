@@ -1,0 +1,36 @@
+<view class="screen">{{result}}</view>
+<view class="content"> 
+ <view class="buttonGroup">
+  <button id="{{id1}}" bindtap="clickButton" class="buttonitem1 color1" hover-class="shadow">清除</button>
+  <button id="{{id2}}" bindtap="clickButton" class="buttonitem1 color1" hover-class="shadow">回退</button>
+  
+  <button id="{{id4}}" bindtap="clickButton" class="buttonitem1 color2" hover-class="shadow1">÷</button>
+ </view>
+ 
+ <view class="buttonGroup"> 
+  <button id="{{id17}}" bindtap="clickButton" class="buttonitem color3" hover-class="shadow7">7</button>
+  <button id="{{id18}}" bindtap="clickButton" class="buttonitem color3" hover-class="shadow8">8</button>
+  <button id="{{id19}}" bindtap="clickButton" class="buttonitem color3" hover-class="shadow9">9</button>
+  <button id="{{id5}}" bindtap="clickButton" class="buttonitem color2" hover-class="shadow1">×</button>
+ </view>
+ 
+ <view class="buttonGroup">
+  <button id="{{id14}}" bindtap="clickButton" class="buttonitem color3" hover-class="shadow4">4</button>
+  <button id="{{id15}}" bindtap="clickButton" class="buttonitem color3" hover-class="shadow5">5</button>
+  <button id="{{id16}}" bindtap="clickButton" class="buttonitem color3" hover-class="shadow6">6</button>
+  <button id="{{id6}}" bindtap="clickButton" class="buttonitem color2" hover-class="shadow1">-</button>
+ </view>
+ 
+ <view class="buttonGroup">
+  <button id="{{id11}}" bindtap="clickButton" class="buttonitem color3" hover-class="shadow1">1</button>
+  <button id="{{id12}}" bindtap="clickButton" class="buttonitem color3" hover-class="shadow2">2</button>
+  <button id="{{id13}}" bindtap="clickButton" class="buttonitem color3" hover-class="shadow3">3</button>
+  <button id="{{id7}}" bindtap="clickButton" class="buttonitem color2" hover-class="shadow1">+</button>
+ </view>
+ 
+ <view class="buttonGroup">
+  <button id="{{id10}}" bindtap="clickButton" class="buttonitem1 color3" hover-class="shadow0">0</button>
+  <button id="{{id8}}" bindtap="clickButton" class="buttonitem1 color2" hover-class="shadow1">.</button>
+  <button id="{{id9}}" bindtap="equal" class="buttonitem1 color2" hover-class="shadow1">=</button>
+ </view>
+</view>
